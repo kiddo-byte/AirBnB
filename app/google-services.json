@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "346276184441",
+    "project_id": "airbnb-8efd2",
+    "storage_bucket": "airbnb-8efd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346276184441:android:151b3b2b0af5fab7652fa8",
+        "android_client_info": {
+          "package_name": "com.example.airbnb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346276184441-hcg7fj23hm64rldh0uq169g982r9gh35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOtytSptyjiWI9dPqhfPEJ5mGCXm_iyBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346276184441-hcg7fj23hm64rldh0uq169g982r9gh35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
