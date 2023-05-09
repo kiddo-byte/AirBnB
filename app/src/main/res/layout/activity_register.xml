@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
         android:ems="10"
-        android:hint="Username"
+        android:hint="Name"
         android:inputType="text" />
 
     <EditText
@@ -42,5 +42,7 @@
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="500dp"
-        android:text="Register" />
+        android:backgroundTint="@color/black"
+        android:text="Register"
+        android:textColor="@color/white" />
 </RelativeLayout>
