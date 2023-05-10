@@ -2,26 +2,33 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
     <EditText
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
         android:id="@+id/emailtxt"
+        android:textColorHint="#000"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="350dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress" />
 
     <EditText
+        android:textColor="@color/black"
+        android:textColorHint="#000"
+        android:backgroundTint="@color/black"
         android:id="@+id/passtxt"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="450dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"/>
@@ -31,7 +38,7 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="550dp"
         android:backgroundTint="@color/black"
         android:text="Login"
         android:textColor="@color/white" />
@@ -41,9 +48,25 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginLeft="200dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="550dp"
         android:backgroundTint="@color/black"
         android:text="Register"
         android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="236dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/airbnb2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="145dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/airbnb3" />
 
 </RelativeLayout>
