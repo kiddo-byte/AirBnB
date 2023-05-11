@@ -39,7 +39,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="550dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#CA9D17"
         android:text="Login"
         android:textColor="@color/white" />
 
@@ -49,24 +49,17 @@
         android:layout_height="50dp"
         android:layout_marginLeft="200dp"
         android:layout_marginTop="550dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#CA9D17"
         android:text="Register"
         android:textColor="@color/white" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="236dp"
-        android:layout_height="47dp"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="180dp"
-        app:srcCompat="@drawable/airbnb2" />
-
-    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
         android:id="@+id/imageView2"
-        android:layout_width="145dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="80dp"
-        app:srcCompat="@drawable/airbnb3" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/airbnb10" />
+
 
 </RelativeLayout>
