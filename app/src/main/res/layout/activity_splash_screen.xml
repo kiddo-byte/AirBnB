@@ -2,16 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#322F2F"
+    android:background="#FFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity">
 
    <ImageView
-       android:layout_width="121dp"
-       android:layout_height="94dp"
+       android:id="@+id/airbnbicon"
+       android:layout_width="277dp"
+       android:layout_height="228dp"
        android:layout_centerInParent="true"
-       android:src="@drawable/airbnb1_adobe_express"
-       android:id="@+id/airbnbicon"/>
+       android:src="@drawable/my_project_1__6__adobe_express" />
 
 </RelativeLayout>
