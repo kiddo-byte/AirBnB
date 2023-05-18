@@ -10,7 +10,7 @@
     <EditText
         android:textColor="@color/black"
         android:backgroundTint="@color/black"
-        android:id="@+id/emailtxt"
+        android:id="@+id/emaillog"
         android:textColorHint="#000"
         android:layout_width="320dp"
         android:layout_height="50dp"
@@ -24,7 +24,7 @@
         android:textColor="@color/black"
         android:textColorHint="#000"
         android:backgroundTint="@color/black"
-        android:id="@+id/passtxt"
+        android:id="@+id/passwordlog"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"

@@ -20,8 +20,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        edtemail = findViewById(R.id.emailtxt)
-        edtpass = findViewById(R.id.passtxt)
+        edtemail = findViewById(R.id.emaillog)
+        edtpass = findViewById(R.id.passwordlog)
         loginbutton = findViewById(R.id.btnlogin)
         registerbutton = findViewById(R.id.btnregister)
 

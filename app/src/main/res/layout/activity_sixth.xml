@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/cards_layout">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:backgroundTint="#CA9D17"
+                    android:text="BOOK NOW"
+                    android:id="@+id/btnkisumu1"/>
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="201dp"
+                    android:layout_height="126dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    app:srcCompat="@drawable/imga" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/description_layout"
+                    android:text="ESTHER'S RESIDENCE"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/description_layout"
+                    android:text="Nyayo Estate,Embakasi"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="152dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#CA9D17"
+                    android:text="Description:Two Bedroom Bungalow,Bathroom in each room,Kitchen,Spacious compound,Fully furnished,Electronics such as a TV available,Basic utility applainces such as a refrigerator,microwave and cooking oven are available,Internet connectivity available"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Total price per day: Ksh.2800"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="220dp"
+                    android:text="Tel No.+254798260651"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/cards_layout">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:backgroundTint="#CA9D17"
+                    android:text="BOOK NOW"
+                    android:id="@+id/btnkisumu2"/>
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="201dp"
+                    android:layout_height="126dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    app:srcCompat="@drawable/imga" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/description_layout"
+                    android:text="ESTHER'S RESIDENCE"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/description_layout"
+                    android:text="Nyayo Estate,Embakasi"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="152dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#CA9D17"
+                    android:text="Description:Two Bedroom Bungalow,Bathroom in each room,Kitchen,Spacious compound,Fully furnished,Electronics such as a TV available,Basic utility applainces such as a refrigerator,microwave and cooking oven are available,Internet connectivity available"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Total price per day: Ksh.2800"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="220dp"
+                    android:text="Tel No.+254798260651"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/cards_layout">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:backgroundTint="#CA9D17"
+                    android:text="BOOK NOW"
+                    android:id="@+id/btnkisumu3"/>
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="201dp"
+                    android:layout_height="126dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    app:srcCompat="@drawable/imga" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/description_layout"
+                    android:text="ESTHER'S RESIDENCE"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/description_layout"
+                    android:text="Nyayo Estate,Embakasi"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="152dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#CA9D17"
+                    android:text="Description:Two Bedroom Bungalow,Bathroom in each room,Kitchen,Spacious compound,Fully furnished,Electronics such as a TV available,Basic utility applainces such as a refrigerator,microwave and cooking oven are available,Internet connectivity available"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Total price per day: Ksh.2800"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="220dp"
+                    android:text="Tel No.+254798260651"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/cards_layout">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:backgroundTint="#CA9D17"
+                    android:text="BOOK NOW"
+                    android:id="@+id/btnkisumu4"/>
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="201dp"
+                    android:layout_height="126dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    app:srcCompat="@drawable/imga" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/description_layout"
+                    android:text="ESTHER'S RESIDENCE"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/description_layout"
+                    android:text="Nyayo Estate,Embakasi"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="152dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#CA9D17"
+                    android:text="Description:Two Bedroom Bungalow,Bathroom in each room,Kitchen,Spacious compound,Fully furnished,Electronics such as a TV available,Basic utility applainces such as a refrigerator,microwave and cooking oven are available,Internet connectivity available"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Total price per day: Ksh.2800"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="220dp"
+                    android:text="Tel No.+254798260651"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

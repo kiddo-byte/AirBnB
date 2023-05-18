@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/namebooking"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:hint="Name"
+        android:background="@drawable/rectangle_layout"/>
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/emailbooking"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/rectangle_layout"/>
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/phonebooking"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone number"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/rectangle_layout"/>
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/agebooking"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Age"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/rectangle_layout"/>
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/residencebooking"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name of Residence"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rectangle_layout"/>
+
+    <Button
+        android:id="@+id/btnbook"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#CA9D17"
+        android:text="BOOK" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/airbnb10" />
+
+</RelativeLayout>

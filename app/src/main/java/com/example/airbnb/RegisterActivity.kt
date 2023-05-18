@@ -20,9 +20,9 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        edtusername = findViewById(R.id.usernametext)
-        edtmail = findViewById(R.id.emailtext)
-        edtpassword = findViewById(R.id.passwordtext)
+        edtusername = findViewById(R.id.namereg)
+        edtmail = findViewById(R.id.emailreg)
+        edtpassword = findViewById(R.id.passwordreg)
         createbutton = findViewById(R.id.btncreate)
 
         auth = FirebaseAuth.getInstance()

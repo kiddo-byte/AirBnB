@@ -10,7 +10,7 @@
     <EditText
         android:backgroundTint="@color/black"
         android:textColorHint="#000"
-        android:id="@+id/usernametext"
+        android:id="@+id/namereg"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
@@ -22,7 +22,7 @@
     <EditText
         android:backgroundTint="@color/black"
         android:textColorHint="#000"
-        android:id="@+id/emailtext"
+        android:id="@+id/emailreg"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
@@ -34,7 +34,7 @@
     <EditText
         android:backgroundTint="@color/black"
         android:textColorHint="#000"
-        android:id="@+id/passwordtext"
+        android:id="@+id/passwordreg"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
