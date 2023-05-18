@@ -37,7 +37,7 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="70dp"
-                    app:srcCompat="@drawable/imga" />
+                    app:srcCompat="@drawable/air3" />
 
                 <TextView
                     android:layout_width="199dp"
@@ -117,7 +117,7 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="70dp"
-                    app:srcCompat="@drawable/imga" />
+                    app:srcCompat="@drawable/air6" />
 
                 <TextView
                     android:layout_width="199dp"
@@ -197,7 +197,7 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="70dp"
-                    app:srcCompat="@drawable/imga" />
+                    app:srcCompat="@drawable/air7" />
 
                 <TextView
                     android:layout_width="199dp"
@@ -277,7 +277,7 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="70dp"
-                    app:srcCompat="@drawable/imga" />
+                    app:srcCompat="@drawable/air10" />
 
                 <TextView
                     android:layout_width="199dp"
