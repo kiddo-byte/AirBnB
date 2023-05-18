@@ -13,52 +13,57 @@
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp"
+        android:backgroundTint="#000000"
         android:hint="Name"
-        android:background="@drawable/rectangle_layout"/>
+        android:textColorHint="@color/black" />
 
     <EditText
-        android:layout_centerHorizontal="true"
         android:id="@+id/emailbooking"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="Email"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="290dp"
-        android:background="@drawable/rectangle_layout"/>
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
 
     <EditText
-        android:layout_centerHorizontal="true"
         android:id="@+id/phonebooking"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:ems="10"
-        android:inputType="phone"
-        android:hint="Phone number"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="360dp"
-        android:background="@drawable/rectangle_layout"/>
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:textColorHint="@color/black" />
 
     <EditText
-        android:layout_centerHorizontal="true"
         android:id="@+id/agebooking"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="Age"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="430dp"
-        android:background="@drawable/rectangle_layout"/>
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
 
     <EditText
-        android:layout_centerHorizontal="true"
         android:id="@+id/residencebooking"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Name of Residence"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="500dp"
-        android:background="@drawable/rectangle_layout"/>
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Name of Residence"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
 
     <Button
         android:id="@+id/btnbook"
