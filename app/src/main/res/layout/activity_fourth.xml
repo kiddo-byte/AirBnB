@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="KEVIN'S RESIDENCE"
+                    android:text="ESTHER'S RESIDENCE"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="16sp"
@@ -119,14 +119,14 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="50dp"
-                    app:srcCompat="@drawable/air8" />
+                    app:srcCompat="@drawable/air7" />
 
                 <TextView
                     android:layout_width="190dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="GABRIEL'S RESIDENCE"
+                    android:text="ESTHER'S RESIDENCE"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="16sp"
@@ -200,14 +200,14 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="50dp"
-                    app:srcCompat="@drawable/air9" />
+                    app:srcCompat="@drawable/air7" />
 
                 <TextView
                     android:layout_width="190dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="MARY'S RESIDENCE"
+                    android:text="ESTHER'S RESIDENCE"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="16sp"
@@ -281,14 +281,14 @@
                     android:layout_height="126dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="50dp"
-                    app:srcCompat="@drawable/air10" />
+                    app:srcCompat="@drawable/air7" />
 
                 <TextView
                     android:layout_width="190dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="SAM'S RESIDENCE"
+                    android:text="ESTHER'S RESIDENCE"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="16sp"
